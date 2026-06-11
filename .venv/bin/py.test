@@ -1,0 +1,6 @@
+#!/home/wahome/Desktop/pip_pypi/course-7-module-6-pip-pypi-scripting-lab/.venv/bin/python
+import sys
+from pytest import console_main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(console_main())
